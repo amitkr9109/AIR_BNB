@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Airbnb font";
+    src: url("/fonts/Airbnb.woff2") format("truetype");
+}
+
+*{
+    font-family: "Airbnb font", sans-serif;
+}
+
+.red-filter {
+    filter: invert(17%) sepia(95%) saturate(7497%) hue-rotate(0deg) brightness(92%) contrast(105%);
+}
+
+.no-scrollBar::-webkit-scrollbar{
+    display: none;
+}
+
