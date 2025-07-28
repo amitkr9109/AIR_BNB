@@ -159,3 +159,5 @@
 2025-07-27T13:45:28.318Z error:500 - Payment Verification failed ! - POST - /payment/verify - ::1
 2025-07-27T13:59:40.669Z error:500 - Unauthorized user - GET - /property/allview - ::1
 2025-07-27T13:59:40.676Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-07-28T05:54:04.522Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-07-28T05:54:04.537Z error:500 - Unauthorized user - GET - /user/current-user - ::1

@@ -104,7 +104,7 @@ const BookingPage = () => {
       prefill: {
         name: "amit",
         email: "a@example.com",
-        contact: "9334978554",
+        contact: import.meta.env.NUMBER,
       },
       theme: {
         color: "#3399cc",

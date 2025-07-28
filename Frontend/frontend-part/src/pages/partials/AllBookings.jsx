@@ -28,7 +28,6 @@ const AllBookings = () => {
     <main className="flex-1 px-6">
       <section className="bg-white p-6 rounded-lg shadow-md min-h-[80vh]">
         <h2 className="text-xl font-bold mb-4">All Bookings</h2>
-        <h1> hello</h1>
         <div className="grid grid-cols-3 gap-4">
           {bookings.map((booking) => (
             <div key={booking._id} className="border p-4 rounded-lg shadow">
