@@ -39,7 +39,6 @@ const AdminPanel = () => {
             <NavLink to={'/admin/users'} className={(e) => e.isActive ? "bg-zinc-200 px-4 py-2 w-full" : "w-full px-4 py-2 hover:bg-zinc-200 active:scale-95" }>AllUsers :-</NavLink>
             <NavLink to={'/admin/properties'} className={(e) => e.isActive ? "bg-zinc-200 px-4 py-2 w-full" : "w-full px-4 py-2 hover:bg-zinc-200 active:scale-95" }>AllProperties :-</NavLink>
             <NavLink to={'/admin/bookings'} className={(e) => e.isActive ? "bg-zinc-200 px-4 py-2 w-full" : "w-full px-4 py-2 hover:bg-zinc-200 active:scale-95" }>AllBookings :-</NavLink>
-            <NavLink to={'/admin/payments'} className={(e) => e.isActive ? "bg-zinc-200 px-4 py-2 w-full" : "w-full px-4 py-2 hover:bg-zinc-200 active:scale-95" }>AllPayments :-</NavLink>
           </div>
         </nav>
       </div>

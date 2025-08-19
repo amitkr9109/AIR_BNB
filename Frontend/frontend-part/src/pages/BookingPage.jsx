@@ -78,7 +78,7 @@ const BookingPage = () => {
     const order_id = orderData.id;
 
     const options = {
-      key: "rzp_test_TD7hsHlT24JGFc",
+      key: import.meta.env.VITE_RAZORPAY_KEY_ID,
       amount: data?.price * 100, 
       currency: "INR",
       name: "Test Corp",

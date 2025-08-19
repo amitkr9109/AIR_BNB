@@ -19,7 +19,6 @@ import CreateReviewPage from './pages/CreateReviewPage'
 import EditReviewPage from './pages/EditReviewPage'
 import AllUser from './pages/partials/AllUser'
 import AllProperties from './pages/partials/AllProperties'
-import AllPayment from './pages/partials/AllPayment'
 
 
 const App = () => {
@@ -37,17 +36,16 @@ const App = () => {
       <main>
         <Nav/>
         <Routes>
-          <Route path='/admin' element={<AdminPanel/>}>
+          <Route path='/admin' element={<ProtectedRoute><AdminPanel/></ProtectedRoute>}>
             <Route path='users' element={<AllUser />}/>
             <Route path='properties' element={<AllProperties />}/>
             <Route path='bookings' element={<AllBookings />}/>
-            <Route path='payments' element={<AllPayment />}/>
           </Route>
           <Route path='/' element={<Home/>}></Route>
           <Route path='/property/create' element={<CreateProperty/>}></Route>
           <Route path='/property/read/:id' element={<SingleProperty/>}></Route>
           <Route path='/property/edit/:id' element={<EditProperty/>}></Route>
-          <Route path='/property/allsearch' element={<Search/>}></Route>
+          <Route path='/property/allsearch' element={<ProtectedRoute><Search/></ProtectedRoute>}></Route>
           <Route path='/signup' element={<SignUp/>}></Route>
           <Route path='/login' element={<Login/>}></Route>
           <Route path='/Booking/:id' element={<BookingPage/>}></Route>

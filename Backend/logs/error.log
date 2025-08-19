@@ -161,3 +161,77 @@
 2025-07-27T13:59:40.676Z error:500 - Unauthorized user - GET - /user/current-user - ::1
 2025-07-28T05:54:04.522Z error:500 - Unauthorized user - GET - /property/allview - ::1
 2025-07-28T05:54:04.537Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:12:53.170Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:12:53.184Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:13:13.677Z error:500 - Unauthorized user - POST - /property/search - ::1
+2025-08-19T07:13:18.018Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:13:21.824Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:13:29.375Z error:500 - Unauthorized user - GET - /admin/profile - ::1
+2025-08-19T07:13:31.838Z error:500 - Unauthorized User! - GET - /admin/user-view - ::1
+2025-08-19T07:13:34.592Z error:500 - Unauthorized User! - GET - /admin/property-view - ::1
+2025-08-19T07:13:36.373Z error:500 - Unauthorized User! - GET - /admin/booking-view - ::1
+2025-08-19T07:13:41.292Z error:500 - Unauthorized User! - GET - /admin/booking-view - ::1
+2025-08-19T07:13:48.136Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:20:57.772Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:20:57.777Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:21:05.146Z error:500 - Unauthorized user - GET - /admin/profile - ::1
+2025-08-19T07:21:08.386Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:21:55.856Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:21:58.736Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:22:02.287Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:22:02.290Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:22:03.141Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:22:03.144Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:22:12.926Z error:500 - Unauthorized user - GET - /admin/profile - ::1
+2025-08-19T07:22:15.699Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:22:19.953Z error:500 - Unauthorized user - GET - /admin/profile - ::1
+2025-08-19T07:22:49.113Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:22:55.502Z error:500 - Unauthorized user - GET - /admin/profile - ::1
+2025-08-19T07:22:56.602Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:22:57.239Z error:500 - Unauthorized user - GET - /admin/profile - ::1
+2025-08-19T07:22:58.814Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:22:58.966Z error:500 - Unauthorized User! - GET - /admin/booking-view - ::1
+2025-08-19T07:22:58.971Z error:500 - Unauthorized user - GET - /admin/profile - ::1
+2025-08-19T07:22:59.117Z error:500 - Unauthorized User! - GET - /admin/property-view - ::1
+2025-08-19T07:22:59.284Z error:500 - Unauthorized User! - GET - /admin/user-view - ::1
+2025-08-19T07:23:00.046Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:23:02.319Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:23:04.378Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:23:04.381Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:23:10.478Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:23:32.860Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:23:43.870Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:23:48.472Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:23:52.542Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:23:52.545Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:23:56.313Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:25:00.192Z error:500 - Unauthorized user - POST - /property/search - ::1
+2025-08-19T07:25:08.891Z error:500 - Unauthorized user - GET - /admin/profile - ::1
+2025-08-19T07:25:31.678Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:25:51.353Z error:500 - Unauthorized user - GET - /admin/profile - ::1
+2025-08-19T07:26:09.067Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:41:57.163Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:41:57.166Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:42:00.212Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:42:00.214Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:42:01.080Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:42:01.083Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:42:42.136Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:42:42.138Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:42:44.586Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:42:44.588Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:42:51.311Z error:500 - Unauthorized user - GET - /admin/profile - ::1
+2025-08-19T07:42:54.229Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T07:42:54.232Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T07:46:01.846Z error:500 - Error in Fetching PropertyView - GET - /property/view/6885f950e0d49c99474fd7e7 - ::1
+2025-08-19T07:46:06.223Z error:500 - Error in Fetching PropertyView - GET - /property/view/6885f950e0d49c99474fd7e7 - ::1
+2025-08-19T07:46:13.186Z error:500 - Error in Fetching PropertyView - GET - /property/view/6885f950e0d49c99474fd7e7 - ::1
+2025-08-19T07:46:20.785Z error:500 - Error in Fetching PropertyView - GET - /property/view/6885f950e0d49c99474fd7e7 - ::1
+2025-08-19T07:46:24.334Z error:500 - Error in Fetching PropertyView - GET - /property/view/6885f950e0d49c99474fd7e7 - ::1
+2025-08-19T07:47:36.871Z error:500 - Error in Fetching PropertyView - GET - /property/view/6885f950e0d49c99474fd7e7 - ::1
+2025-08-19T07:48:39.542Z error:500 - Error in Fetching PropertyView - GET - /property/view/6885f966e0d49c99474fd7f0 - ::1
+2025-08-19T07:48:47.219Z error:500 - Error in Fetching PropertyView - GET - /property/view/6885f966e0d49c99474fd7f0 - ::1
+2025-08-19T08:17:33.020Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-08-19T08:17:33.030Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T09:43:06.139Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-08-19T09:43:06.147Z error:500 - Unauthorized user - GET - /property/allview - ::1
