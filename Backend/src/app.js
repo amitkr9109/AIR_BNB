@@ -14,7 +14,7 @@ const ErrorHandler = require("./middlewares/errorHandler.js");
 
 app.use(cors({
   origin: [
-    "https://air-bnb-backend-pb7j.onrender.com",
+    "https://air-bnb-frontend.onrender.com",
     "http://localhost:5173",
   ],
   credentials: true,
