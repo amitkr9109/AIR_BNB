@@ -15,7 +15,7 @@ export const CreateReviewService = async (data) => {
 export const AllReadReviewService = async (id) => {
   try {
     const res = await axios.get(`/review/allread/${id}`);
-    toast.success(res.data.message);
+    // toast.success(res.data.message);
     return res;
   } catch (error) {
     console.log("error", error);
@@ -26,7 +26,7 @@ export const AllReadReviewService = async (id) => {
 export const ReadReviewService = async (id) => {
   try {
     const res = await axios.get(`/review/read/${id}`);
-    toast.success(res.data.message);
+    // toast.success(res.data.message);
     return res;
   } catch (error) {
     console.log("error", error);

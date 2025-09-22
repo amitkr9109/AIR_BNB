@@ -25,7 +25,7 @@ export const GetAllPropertyService = async () => {
 export const GetPropertyDetailsService = async (id) => {
     try {
       const res = await axios.get(`/property/view/${id}`);
-      toast.success(res.data.message);
+      // toast.success(res.data.message);
       return res;
     } catch (error) {
       toast.error(error.response.data.message);

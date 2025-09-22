@@ -9,3 +9,21 @@
 2025-09-22T09:54:18.406Z error:500 - Unauthorized user - GET - /user/current-user - ::1
 2025-09-22T09:54:39.362Z error:500 - Unauthorized user - GET - /property/allview - ::1
 2025-09-22T09:54:39.366Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-09-22T10:32:01.927Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-09-22T10:32:01.941Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-09-22T10:32:35.513Z error:500 - User not Found - POST - /user/login - ::1
+2025-09-22T10:33:23.120Z error:500 - Email or Password is incorrect - POST - /user/login - ::1
+2025-09-22T11:00:10.846Z error:500 - Access Denied - GET - /admin/profile - ::1
+2025-09-22T11:00:19.759Z error:500 - Access Denied - GET - /admin/profile - ::1
+2025-09-22T11:00:21.675Z error:500 - Access Denied - GET - /admin/user-view - ::1
+2025-09-22T11:01:44.439Z error:500 - user not found ! - GET - /property/allview - ::1
+2025-09-22T11:01:44.444Z error:500 - user not found ! - GET - /user/current-user - ::1
+2025-09-22T11:03:25.491Z error:500 - user not found ! - GET - /user/current-user - ::1
+2025-09-22T11:03:25.493Z error:500 - user not found ! - GET - /property/allview - ::1
+2025-09-22T11:04:54.115Z error:500 - No Valid Propert name and price - POST - /property/search - ::1
+2025-09-22T11:13:42.944Z error:500 - Access Denied - GET - /admin/profile - ::1
+2025-09-22T11:16:48.236Z error:500 - Booking not fount - POST - /review/create - ::1
+2025-09-22T12:15:55.344Z error:500 - jwt expired - POST - /property/create - ::1
+2025-09-22T12:15:55.437Z error:500 - jwt expired - GET - /property/allview - ::1
+2025-09-22T13:17:05.340Z error:500 - jwt expired - GET - /user/current-user - ::1
+2025-09-22T13:17:05.342Z error:500 - jwt expired - GET - /property/allview - ::1
