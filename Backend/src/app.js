@@ -13,7 +13,10 @@ const ErrorHandler = require("./middlewares/errorHandler.js");
 
 
 app.use(cors({
-  origin: ["https://air-bnb-frontend.onrender.com"],
+  origin: [
+    "http://localhost:5173", 
+    "https://air-bnb-frontend.onrender.com"
+  ],
   credentials: true,
 }));
 
