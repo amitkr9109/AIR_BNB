@@ -12,7 +12,10 @@ const morgan = require("morgan");
 const ErrorHandler = require("./middlewares/errorHandler.js");
 
 
-app.use(cors());
+app.use(cors({
+  origin: "*",
+  credentials: true,
+}));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
