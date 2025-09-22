@@ -34,4 +34,3 @@ export const getAdminProfile = async () => {
   const res = await axios.get('/admin/profile');
   return res.data.user;
 };
-

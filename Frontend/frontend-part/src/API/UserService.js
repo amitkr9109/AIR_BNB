@@ -27,7 +27,7 @@ export const CurrentUserService = async () => {
         toast.success(data.message);
         return data;
     } catch (error) {
-        toast.error(error.response.data.message);
+        throw error;
     }
 };
 
