@@ -4,3 +4,7 @@
 2025-09-22T16:27:33.830Z error:500 - Unauthorized user - GET - /property/allview - ::1
 2025-09-22T16:28:01.453Z error:500 - Unauthorized user - GET - /property/allview - ::1
 2025-09-22T16:28:01.456Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-09-22T17:55:48.443Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-09-22T17:55:48.463Z error:500 - Unauthorized user - GET - /property/allview - ::1
+2025-09-22T18:18:42.262Z error:500 - Unauthorized user - GET - /user/current-user - ::1
+2025-09-22T18:18:42.273Z error:500 - Unauthorized user - GET - /property/allview - ::1
