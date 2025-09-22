@@ -14,15 +14,14 @@ const EditReviewPage = () => {
 
   useEffect(() => {
     const fetchReview = async () => {
-        try {
-            const res = await ReadReviewService(id);
-            setRatings(res.data.ReviewShowingdata.Ratings);
-            setComment(res.data.ReviewShowingdata.Comment);
+      try {
+        const res = await ReadReviewService(id);
+        setRatings(res.data.ReviewShowingdata.Ratings);
+        setComment(res.data.ReviewShowingdata.Comment);
 
-        } catch (error) {
-            console.log("error", error);
-            toast.error("Failed to load review");
-        }
+      } catch (error) {
+        toast.error("Failed to load review");
+      }
     }
     fetchReview();
   }, [id]);
@@ -45,7 +44,6 @@ const EditReviewPage = () => {
     }
 
   } catch (err) {
-    console.log("error", err);
     toast.error("Failed to update review");
   }
 };

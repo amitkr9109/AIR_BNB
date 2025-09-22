@@ -20,14 +20,12 @@ const CreateReviewPage = () => {
 
       if (res?.data?.ReviewCreatedata) {
         const reviewData = res.data.ReviewCreatedata
-        console.log(reviewData);
         navigate(`/property/read/${propertyId}`, {
           state: {newReview: reviewData}
         });
         toast.success("Review created successfully!");
       }
     } catch (error) {
-      console.log("error", err);
       toast.error(error?.response?.data?.message || "Review creation failed");
     }
   };

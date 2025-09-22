@@ -27,8 +27,6 @@ const BookingPage = () => {
     const res = await VerifyPaymentService(paymentData);
 
     if (res && !res.error) {
-      // alert("Payment verified successfully");
-      console.log("res after success ->", res);
       navigate("/");
     } else {
       throw new Error(res.message || "Payment verification failed");

@@ -22,7 +22,6 @@ const AuthMiddleWare = async function(req, res, next){
         next();
 
     } catch (error) {
-        console.log(error)
         next(new CustomError(error.message, 500));
     }
 }

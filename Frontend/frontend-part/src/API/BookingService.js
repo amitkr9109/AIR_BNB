@@ -7,7 +7,6 @@ export const PropertyBookingService = async (data) => {
     toast.success(res.data.message);
     return res;
   } catch (error) {
-    console.log("error->", error);
     toast.error(error.response.data.message);
   }
 };
@@ -18,7 +17,6 @@ export const PropertyBookingCanceledService = async (id) => {
     toast.success(res.data.message);
     return res;
   } catch (error) {
-    console.log("error->", error);
     toast.error(error.response.data.message);
   }
 };

@@ -11,7 +11,7 @@ const AdminPanel = () => {
         const data = await getAdminProfile();
         setAdmin(data);
       } catch (error) {
-        console.log("Failed to load admin profile", error);
+        throw error;
       }
     };
     fetchAdmin();

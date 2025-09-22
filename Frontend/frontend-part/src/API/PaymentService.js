@@ -12,7 +12,6 @@ export const VerifyPaymentService = async (data) => {
     return res;
   } catch (error) {
     const msg = error.response?.data?.message || "Server Error";
-    console.log("Verification error:", msg);
     toast.error(msg);
     return { error: true, message: msg };
   }

@@ -41,7 +41,6 @@ const BookingCard = ({ TotalPrice, propertyShow_id }) => {
       });
       
       if (res && res.data && res.data.data) {
-        console.log(res.data.data)
 
         const bookingData = res.data.data;
         const orderId = bookingData.Razorpay_Orderid;

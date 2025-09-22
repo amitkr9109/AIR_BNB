@@ -57,7 +57,6 @@ const BookingCreateController = async function(req, res, next){
         res.status(200).json({ success: true, data: populatedBooking, amount: TotalPrice });
         
     } catch (error) {
-        console.log(error)
         next (new CustomError(error.message, 500));
     }
 };
